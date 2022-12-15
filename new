@@ -1,0 +1,15 @@
+pipeline {
+     agent any 
+           stages {
+              stage('clone')
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C {
+                     steps {
+             git branch:('branch name'), url:"your github url"
+              }
+            }
+             stages {
+                stage('build') {
+                    steps {
+               [A[A[B[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[B[C[C[C[C[C[C[C[Csh.mvn package
+            }
+         }
